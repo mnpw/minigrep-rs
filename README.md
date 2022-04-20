@@ -1,5 +1,8 @@
 # minigrep-rs
-A less jacked version of [`grep`](https://en.wikipedia.org/wiki/Grep) written in Rust! Follows [chapter 10](https://doc.rust-lang.org/stable/book/ch12-00-an-io-project.html) of The Rust Book.
+Minimal [`grep`](https://en.wikipedia.org/wiki/Grep) written in Rust! Follows [chapter 10](https://doc.rust-lang.org/stable/book/ch12-00-an-io-project.html) of The Rust Book.
+
+### Usage
+`cargo run <word> <file>`
 
 ## Notes
 - Guideline for splitting the separate concerns (see more [here](https://youtu.be/6sNmJtoKDCo?t=1121)) of a binary program when `main` starts getting large: 
